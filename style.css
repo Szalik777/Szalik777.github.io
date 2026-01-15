@@ -1,11 +1,29 @@
-h1{
-    background-color: red;
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
 }
 
-p{
-   background-color: greenyellow;
-}
-body{
+.container {
     display: flex;
-    justify-content: center; 
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.2s;
+}
+
+.container a:hover {
+    background-color: #0056b3;
 }
