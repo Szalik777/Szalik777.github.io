@@ -3,13 +3,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;     
     font-family: Arial, sans-serif;
 }
 
 h1 {
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     text-align: center;
 }
 
@@ -22,7 +22,7 @@ h1 {
 
 .linki a {
     text-decoration: none;
-    color: blue;
+    color: black;
     font-size: 18px;
 }
 
