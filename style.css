@@ -1,29 +1,31 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: #f4f4f4;
+    align-items: center;     
     font-family: Arial, sans-serif;
 }
 
-.container {
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.linki {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    gap: 10px;
 }
 
-.container a {
+.linki a {
     text-decoration: none;
-    color: white;
-    background-color: #007bff;
-    padding: 12px 24px;
-    border-radius: 8px;
-    text-align: center;
-    transition: background-color 0.2s;
+    color: blue;
+    font-size: 18px;
 }
 
-.container a:hover {
-    background-color: #0056b3;
+.linki a:hover {
+    text-decoration: underline;
 }
