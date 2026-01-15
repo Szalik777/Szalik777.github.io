@@ -29,3 +29,10 @@ h1 {
 .linki a:hover {
     text-decoration: underline;
 }
+
+.odniesienie {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
